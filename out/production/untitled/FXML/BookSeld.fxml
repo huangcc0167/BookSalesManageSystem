@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="710.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.BookSeldController">
+   <children>
+      <TableView fx:id="BookTable" prefHeight="710.0" prefWidth="615.0">
+        <columns>
+          <TableColumn fx:id="userId" prefWidth="111.59999239444733" text="卖家用户名" />
+          <TableColumn fx:id="bookname" prefWidth="128.39998626708984" text="书名" />
+            <TableColumn fx:id="writer" prefWidth="127.39999389648438" text="作者" />
+            <TableColumn fx:id="price" prefWidth="99.4000244140625" text="售价" />
+            <TableColumn fx:id="time" prefWidth="146.19992065429688" text="交易成功时间" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

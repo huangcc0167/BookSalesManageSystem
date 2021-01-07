@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="680.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.BookEditorAllController">
+   <children>
+      <Button layoutX="123.0" layoutY="552.0" mnemonicParsing="false" onAction="#changedAction" prefHeight="40.0" prefWidth="119.0" text="确认更改" />
+      <TextField fx:id="booknameT" layoutX="354.0" layoutY="31.0" />
+      <Label fx:id="bookname" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="31.0" prefHeight="30.0" prefWidth="158.0" text="Label" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="31.0" prefHeight="30.0" prefWidth="69.0" text="——&gt;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="writer" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="101.0" prefHeight="30.0" prefWidth="158.0" text="Label" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="101.0" prefHeight="30.0" prefWidth="69.0" text="——&gt;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="chuban" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="172.0" prefHeight="30.0" prefWidth="158.0" text="Label" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="172.0" prefHeight="30.0" prefWidth="69.0" text="——&gt;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="price" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="232.0" prefHeight="30.0" prefWidth="158.0" text="Label" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="232.0" prefHeight="30.0" prefWidth="69.0" text="——&gt;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="store" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="298.0" prefHeight="30.0" prefWidth="158.0" text="Label" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="298.0" prefHeight="30.0" prefWidth="69.0" text="——&gt;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="time" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="370.0" prefHeight="30.0" prefWidth="158.0" text="Label" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="370.0" prefHeight="30.0" prefWidth="69.0" text="——&gt;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="writerT" layoutX="354.0" layoutY="101.0" />
+      <TextField fx:id="chubanT" layoutX="354.0" layoutY="172.0" />
+      <TextField fx:id="priceT" layoutX="354.0" layoutY="232.0" />
+      <TextField fx:id="storeT" layoutX="354.0" layoutY="298.0" />
+      <TextField fx:id="timeT" layoutX="356.0" layoutY="370.0" />
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="43.0" layoutY="31.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #99CCFF; -fx-background-radius: 50;" text="作品名：">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="43.0" layoutY="101.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #99CCFF; -fx-background-radius: 50;" text="作者：">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="172.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #99CCFF; -fx-background-radius: 50;" text="出版社：">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="232.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #99CCFF; -fx-background-radius: 50;" text="售价：">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="298.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #99CCFF; -fx-background-radius: 50;" text="库存量：">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="370.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #99CCFF; -fx-background-radius: 50;" text="出版时间：">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="336.0" layoutY="552.0" mnemonicParsing="false" onAction="#deleteBook" prefHeight="40.0" prefWidth="119.0" text="下架书本" />
+      <Label alignment="CENTER" layoutX="43.0" layoutY="438.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #99CCFF; -fx-background-radius: 50;" text="封面：">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="address" alignment="CENTER" layoutX="129.0" layoutY="438.0" prefHeight="30.0" prefWidth="158.0" text="Label" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="438.0" prefHeight="30.0" prefWidth="69.0" text="——&gt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addressT" layoutX="356.0" layoutY="438.0" />
+      <Button layoutX="476.0" layoutY="486.0" mnemonicParsing="false" onAction="#selectFile" text="选择文件" />
+   </children>
+</AnchorPane>
