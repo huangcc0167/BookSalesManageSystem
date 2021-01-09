@@ -34,8 +34,10 @@ public class BookDeleteController implements Initializable  {
     private AnchorPane root;
     @FXML
     private TextField look;
-
     private ObservableList<Book> Book_data = FXCollections.observableArrayList();
+    /**
+     *初始化界面
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         connection cnn=new connection();
@@ -106,6 +108,9 @@ public class BookDeleteController implements Initializable  {
         });
     }
 
+    /**
+     * 查询操作
+     */
     public void lookAction(){
         connection cnn=new connection();
         Connection con=cnn.getConnection();

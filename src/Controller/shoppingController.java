@@ -26,6 +26,12 @@ public class shoppingController implements Initializable {
 
     private File file = new File("C:\\Users\\86134\\IdeaProjects\\BookSalesManagementSystem\\src\\TXT\\buy.txt");
     private File file2 = new File("C:\\Users\\86134\\IdeaProjects\\BookSalesManagementSystem\\src\\TXT\\username.txt");
+
+    /**
+     * 页面初始化
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
@@ -51,6 +57,9 @@ public class shoppingController implements Initializable {
         }
     }
 
+    /**
+     * 确定是否购买
+     */
     public void TESAction() {
         String username= null;
         String booksname=null;
@@ -123,6 +132,9 @@ public class shoppingController implements Initializable {
         }
     }
 
+    /**
+     * 退出此页面，回到书籍购买页面
+     */
     public void quxiaoAction(){
         Stage stage = (Stage) root.getScene().getWindow();
         stage.close();

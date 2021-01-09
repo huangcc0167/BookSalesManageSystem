@@ -1,6 +1,9 @@
 package Controller;
 
 import StageStart.BookInStage;
+import Tool.Book;
+import Tool.BookIn;
+import Tool.DataBasesUtil;
 import Tool.connection;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -33,6 +36,9 @@ public class AddBookController {
     @FXML
     private AnchorPane root;
 
+    /**
+     * 增加进货信息，如果书名已经存在，此书数量增加，如果不存在则新建书籍
+     */
     public void AddBookAction(){
         if(name.getText().length()==0) {
             Alert alert = new Alert(Alert.AlertType.WARNING);
@@ -87,63 +93,13 @@ public class AddBookController {
             connection cnn=new connection();
             Connection con=cnn.getConnection();
 
-            String sql = "insert into bookinformation.bookin(name,writer,price,chuban,number,Time) values(?,?,?,?,?,?)";
-            PreparedStatement ps = null;
-            try {
-                ps = con.prepareStatement(sql);
-                ps.setString(1, newname);
-                ps.setString(2,newwriter);
-                ps.setDouble(3,num);
-                ps.setString(4,newchuban);
-                ps.setInt(5,newnumber);
-                ps.setDate(6,date);
+            DataBasesUtil dbu = new DataBasesUtil();
+            dbu.AddBookAction(new BookIn(newname,newwriter,num,newchuban,newnumber,date));
 
-                ps.executeUpdate();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }//bookin
-
-            Connection con1=cnn.getConnection();
-            String sql1="select * from bookinformation.bookspage";
-            Statement stmt1 = null;
-            try {
-                int flag=0;
-                stmt1 = (Statement) con.createStatement();
-                ResultSet rs1 =stmt1.executeQuery(sql1);
-                while(rs1.next()){
-                    if(rs1.getString(1).equals(newname)){
-                        String sql2="update bookinformation.bookspage set store=? where name=? ";
-                        PreparedStatement ps2 = null;
-                        int newn=newnumber+rs1.getInt(6);
-                        ps2 = con1.prepareStatement(sql2);
-                        ps2.setInt(1, newn);
-                        ps2.setString(2,newname);
-                        ps2.executeUpdate();
-                        flag=1;
-                    }
+            boolean flag=dbu.AddBookAction(new Book(newname,newnumber));
+                if(flag==false){
+                    dbu.AddBookActionFalse(new Book(newname,newwriter,num,newtime,newchuban,newnumber,newclasses,s1));
                 }
-                if(flag==0){
-                    String sql3="insert into bookinformation.bookspage(name,writer,price,time,chuban,store,classes,image) values(?,?,?,?,?,?,?,?)";
-                    PreparedStatement ps3 = null;
-                    try {
-                        ps3 = con.prepareStatement(sql3);
-
-                        ps3.setString(1, newname);
-                        ps3.setString(2,newwriter);
-                        ps3.setDouble(3,num);
-                        ps3.setString(4,newtime);
-                        ps3.setString(5,newchuban);
-                        ps3.setInt(6,newnumber);
-                        ps3.setString(7,newclasses);
-                        ps3.setString(8,s1);
-
-                        ps3.executeUpdate();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                    }
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.headerTextProperty().set("添加成功！");
@@ -158,13 +114,33 @@ public class AddBookController {
                 e.printStackTrace();
             }
         }
-    }
 
+    /**
+     * 设置封面图片地址
+     */
     public void setImageAddress(){
         FileChooser fileChooser = new FileChooser();
-        File file = fileChooser.showOpenDialog(new Stage());
+        File file=null;
+        file = fileChooser.showOpenDialog(new Stage());
 
-        String path = file.getPath();//选择的文件夹路径
-        fileT.setText(path);
+        if(file!=null) {
+            String path = null;
+            path = file.getAbsolutePath();//选择的文件夹路径
+            fileT.setText(path);
+        }
+    }
+
+    /**
+     * 取消增加
+     */
+    public void quxiaoAction(){
+        Stage stage = (Stage) root.getScene().getWindow();
+        stage.close();
+        BookInStage bis=new BookInStage();
+        try {
+            bis.start(new Stage());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

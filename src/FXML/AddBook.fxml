@@ -7,7 +7,7 @@
 
 <AnchorPane fx:id="root" prefHeight="665.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddBookController">
    <children>
-      <Button layoutX="153.0" layoutY="579.0" mnemonicParsing="false" onAction="#AddBookAction" prefHeight="35.0" prefWidth="124.0" text="确定增加" />
+      <Button layoutX="75.0" layoutY="583.0" mnemonicParsing="false" onAction="#AddBookAction" prefHeight="35.0" prefWidth="124.0" text="确定增加" />
       <Label alignment="CENTER" layoutX="58.0" layoutY="37.0" prefHeight="35.0" prefWidth="85.0" style="-fx-background-color: #CCCCFF; -fx-background-radius: 50;" text="书名：" />
       <Label alignment="CENTER" layoutX="58.0" layoutY="106.0" prefHeight="35.0" prefWidth="85.0" style="-fx-background-color: #CCCCFF; -fx-background-radius: 50;" text="作者：" />
       <Label alignment="CENTER" layoutX="58.0" layoutY="170.0" prefHeight="35.0" prefWidth="85.0" style="-fx-background-color: #CCCCFF; -fx-background-radius: 50;" text="售价：" />
@@ -24,5 +24,6 @@
       <TextField fx:id="classes" layoutX="164.0" layoutY="451.0" />
       <Button layoutX="295.0" layoutY="522.0" mnemonicParsing="false" onAction="#setImageAddress" prefHeight="30.0" prefWidth="85.0" text="上传图片" />
       <TextField fx:id="fileT" editable="false" layoutX="75.0" layoutY="522.0" promptText="文件位置" />
+      <Button layoutX="242.0" layoutY="583.0" mnemonicParsing="false" onAction="#quxiaoAction" prefHeight="35.0" prefWidth="124.0" text="取消" />
    </children>
 </AnchorPane>

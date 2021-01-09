@@ -26,6 +26,12 @@ public class EditorController implements Initializable {
     private AnchorPane root;
 
     private File file = new File("C:\\Users\\86134\\IdeaProjects\\BookSalesManagementSystem\\src\\TXT\\bookname.txt");
+
+    /**
+     * 初始化界面
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
@@ -50,6 +56,9 @@ public class EditorController implements Initializable {
         }
     }
 
+    /**
+     * 更改书籍类别
+     */
     public void changedAction() {
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));

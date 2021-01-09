@@ -1,11 +1,15 @@
 package StageStart;
 
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class ManageStage {
+/**
+ * 管理员管理界面
+ */
+public class ManageStage extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = (Parent) FXMLLoader.load(this.getClass().getResource("../FXML/ManagePage.fxml"));
         primaryStage.setTitle("ManagerPage");

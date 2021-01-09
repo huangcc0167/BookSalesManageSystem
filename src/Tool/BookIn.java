@@ -2,6 +2,9 @@ package Tool;
 
 import java.sql.Date;
 
+/**
+ * 买入的书籍 所有管理员购买的书籍对象
+ */
 public class BookIn {
     private String name,writer,chuban;
     private int number;

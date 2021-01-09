@@ -43,6 +43,11 @@ public class BookManageController implements Initializable {
     private ObservableList<Book> BookLists = FXCollections.observableArrayList();
     private ArrayList<Book>arrayList=new ArrayList<>();
 
+    /**
+     * 获取表格元素list
+     * @return
+     * @throws SQLException
+     */
     public ObservableList<Book> getBookData() throws SQLException {
         connection cnn=new connection();
         Connection con=cnn.getConnection();
@@ -61,6 +66,11 @@ public class BookManageController implements Initializable {
         return BookLists;
     }
 
+    /**
+     * 初始化界面
+     * @param url
+     * @param resourceBundle
+     */
     @FXML
     public void initialize(URL url, ResourceBundle resourceBundle) {
         String s=i+"/"+sum;
@@ -80,6 +90,9 @@ public class BookManageController implements Initializable {
         }
     }
 
+    /**
+     * 按书名模糊查询
+     */
     public void lookAction(){
         connection cnn=new connection();
         Connection con=cnn.getConnection();
@@ -101,6 +114,9 @@ public class BookManageController implements Initializable {
         }
     }
 
+    /**
+     * 翻页
+     */
     public void nextAction(){
         i++;
         if(i>sum){
@@ -121,6 +137,9 @@ public class BookManageController implements Initializable {
         }
     }
 
+    /**
+     * 前一页
+     */
     public void ProAction() {
         i--;
         x = x - 2 * l;

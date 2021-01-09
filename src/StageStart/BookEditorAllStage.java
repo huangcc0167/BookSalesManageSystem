@@ -1,11 +1,15 @@
 package StageStart;
 
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class BookEditorAllStage {
+/**
+ * 书籍全部信息编辑界面
+ */
+public class BookEditorAllStage extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = (Parent) FXMLLoader.load(this.getClass().getResource("../FXML/BookEditorAll.fxml"));
         primaryStage.setTitle("图书信息管理");

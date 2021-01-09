@@ -26,6 +26,9 @@ public class LoginController {
     @FXML
     public AnchorPane root;
 
+    /**
+     * 登录 判断账号是否存在以及判断密码
+     */
     @FXML
     public void loginAction(){
         String username=name.getText();
@@ -45,15 +48,16 @@ public class LoginController {
                 alert.headerTextProperty().set("管理员密码错误，请重新输入！");
                 alert.showAndWait();
             }else if(password.equals("qwer")){
-                Stage stage = (Stage) root.getScene().getWindow();
-                stage.close();
-
                 ManageStage manageStage=new ManageStage();
+                Stage newstage = new Stage();
+                newstage.setMaximized(true);
                 try {
-                    manageStage.start(new Stage());
+                    manageStage.start(newstage);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+                Stage stage = (Stage) root.getScene().getWindow();
+                stage.close();
             }
         }
         else {
@@ -78,7 +82,10 @@ public class LoginController {
                             e.printStackTrace();
                         }
                         UsersMainStage ums = new UsersMainStage();
-                        ums.start(new Stage());
+                        Stage newstage = new Stage();
+                        newstage.setMaximized(true);
+                        ums.start(newstage);
+
                         Stage stage = (Stage) root.getScene().getWindow();
                         stage.close();
                         flag=1;
@@ -98,6 +105,9 @@ public class LoginController {
             }
         }
 
+    /**
+     * 注册
+     */
     public void ZhuceAction(){
         ZhuCeStage zcs=new ZhuCeStage();
         try {

@@ -55,6 +55,11 @@ public class BookInController  implements Initializable {
         return BookLists;
     }
 
+    /**
+     * 初始化界面
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
@@ -72,6 +77,9 @@ public class BookInController  implements Initializable {
         }
     }
 
+    /**
+     * 增加进货信息操作
+     */
     public void AddBookAction(){
         Stage stage = (Stage) root.getScene().getWindow();
         stage.close();

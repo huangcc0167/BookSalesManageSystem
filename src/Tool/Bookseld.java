@@ -2,6 +2,9 @@ package Tool;
 
 import java.sql.Date;
 
+/**
+ * 卖出的书籍对象
+ */
 public class Bookseld {
     private String userId,bookname,writer;
     private double price;

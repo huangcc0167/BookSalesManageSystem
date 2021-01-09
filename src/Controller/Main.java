@@ -6,6 +6,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/**
+ * 系统入口方法
+ */
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{

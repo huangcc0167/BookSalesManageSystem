@@ -39,6 +39,10 @@ public class UserAllBookController implements Initializable {
 
     private ObservableList<Book> BookLists = FXCollections.observableArrayList();
 
+    /**
+     * 获取表格单元格
+     * @return
+     */
     public ObservableList<Book> getBookData(){
         connection cnn=new connection();
         Connection con=cnn.getConnection();
@@ -62,6 +66,11 @@ public class UserAllBookController implements Initializable {
         return BookLists;
     }
 
+    /**
+     * 初始化界面
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
@@ -73,6 +82,9 @@ public class UserAllBookController implements Initializable {
         BookTable.setItems(getBookData());
     }
 
+    /**
+     * 按书名查询所有书籍
+     */
     public void LookAction(){
         connection cnn=new connection();
         Connection con=cnn.getConnection();

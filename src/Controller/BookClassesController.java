@@ -41,6 +41,11 @@ public class BookClassesController implements Initializable {
 
     private String bookname;
 
+    /**
+     * 得到BookTable的单元格
+     * @return
+     * @throws SQLException
+     */
     public ObservableList<Book> getBookData() throws SQLException {
         connection cnn=new connection();
         Connection con=cnn.getConnection();
@@ -96,6 +101,11 @@ public class BookClassesController implements Initializable {
         return BookLists;
     }
 
+    /**
+     * 初始化界面
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
@@ -110,6 +120,9 @@ public class BookClassesController implements Initializable {
         }
     }
 
+    /**
+     * 查询书籍分类
+     */
     public void lookAction(){
         connection cnn=new connection();
         Connection con=cnn.getConnection();
@@ -121,7 +134,6 @@ public class BookClassesController implements Initializable {
             ResultSet rs=stmt.executeQuery(sql);
             BookLists.clear();
             while(rs.next()){
-
                 BookLists.add(new Book(rs.getString(1), rs.getString(2), rs.getString(5)
                         ,rs.getString(7)));
                 BookTable.setItems(BookLists);

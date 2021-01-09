@@ -1,6 +1,5 @@
 package Controller;
 
-import Tool.Book;
 import Tool.Bookseld;
 import Tool.connection;
 import javafx.collections.FXCollections;
@@ -34,6 +33,11 @@ public class BookSeldController implements Initializable {
 
     private ObservableList<Bookseld> BookLists = FXCollections.observableArrayList();
 
+    /**
+     * 获取表格单元格
+     * @return
+     * @throws SQLException
+     */
     public ObservableList<Bookseld> getBookData() throws SQLException {
         connection cnn=new connection();
         Connection con=cnn.getConnection();
@@ -48,6 +52,11 @@ public class BookSeldController implements Initializable {
         return BookLists;
     }
 
+    /**
+     * 初始化界面
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         userId.setCellValueFactory(new PropertyValueFactory<>("userId"));
@@ -63,4 +72,57 @@ public class BookSeldController implements Initializable {
             e.printStackTrace();
         }
     }
+
+//    public void daochu(){
+//        File file=new File("d:/售货信息.xls");
+//        if(!file.exists()) {
+//            try {
+//                file.createNewFile();
+//            }catch( IOException k) {
+//                k.printStackTrace();
+//            }
+//        }
+//        try {
+//
+//            BufferedWriter bw=new BufferedWriter(new FileWriter(file));
+//            connection cnn=new connection();
+//            Connection con=cnn.getConnection();
+//            String sql="select * from bookinformation.bookseld";
+//            Statement stmt = (Statement) con.createStatement();
+//            ResultSet rs =stmt.executeQuery(sql);
+//
+//            bw.write("买家用户名");
+//            bw.write("\t");
+//            bw.write("书名");
+//            bw.write("\t");
+//            bw.write("作者");
+//            bw.write("\t");
+//            bw.write("售价");
+//            bw.write("\t");
+//            bw.write("交易成功时间");
+//            bw.write("\t");
+//            bw.newLine();
+//
+//            while(rs.next()) {
+//                bw.write(rs.getString(1));
+//                bw.write("\t");
+//                bw.write(rs.getString(2));
+//                bw.write("\t");
+//                bw.write(rs.getString(3));
+//                bw.write("\t");
+//                bw.write(String.valueOf(rs.getDouble(4)));
+//                bw.write("\t");
+//                bw.write(String.valueOf(rs.getDate(5)));
+//                bw.write("\t");
+//                bw.newLine();
+//            }
+//            bw.close();
+//        }catch(IOException | SQLException l) {
+//            l.printStackTrace();
+//        }
+//        Alert alert = new Alert(Alert.AlertType.WARNING);
+//        alert.headerTextProperty().set("导出成功！");
+//        alert.showAndWait();
+//    }
+
 }

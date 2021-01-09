@@ -19,6 +19,9 @@ public class ZhuCeController {
     @FXML
     private AnchorPane root;
 
+    /**
+     * 用户选择用户名及设置密码，用户名查重
+     */
     public void sureAction() {
         connection cnn = new connection();
         Connection con = cnn.getConnection();
@@ -33,7 +36,6 @@ public class ZhuCeController {
             try {
                 stmt = (Statement) con.createStatement();
                 ResultSet rs = stmt.executeQuery(sql);
-
                 while (rs.next()) {
                     if (rs.getString(1).equals(name)) {
                         flag = 1;

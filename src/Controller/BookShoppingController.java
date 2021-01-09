@@ -36,6 +36,12 @@ public class BookShoppingController implements Initializable {
     private AnchorPane root;
 
     private ObservableList<Book> Book_data = FXCollections.observableArrayList();
+
+    /**
+     * 初始化界面
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         connection cnn=new connection();
@@ -105,6 +111,10 @@ public class BookShoppingController implements Initializable {
             }
         });
     }
+
+    /**
+     * 按书名模糊查询
+     */
     public void lookAction(){
         connection cnn=new connection();
         Connection con=cnn.getConnection();

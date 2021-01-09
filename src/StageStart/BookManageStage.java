@@ -1,11 +1,15 @@
 package StageStart;
 
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class BookManageStage {
+/**
+ * 全部书籍查询界面
+ */
+public class BookManageStage extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = (Parent) FXMLLoader.load(this.getClass().getResource("../FXML/BookManage.fxml"));
         primaryStage.setTitle("ManagerPage");

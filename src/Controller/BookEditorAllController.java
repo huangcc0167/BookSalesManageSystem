@@ -1,6 +1,8 @@
 package Controller;
 
 import StageStart.BookDeleteStage;
+import Tool.Book;
+import Tool.DataBasesUtil;
 import Tool.connection;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -50,6 +52,9 @@ public class BookEditorAllController implements Initializable {
 
     private File file = new File("C:\\Users\\86134\\IdeaProjects\\BookSalesManagementSystem\\src\\TXT\\bookname.txt");
     @Override
+    /**
+     * 初始化编辑界面
+     */
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -77,7 +82,6 @@ public class BookEditorAllController implements Initializable {
                     storeT.setText(String.valueOf(rs.getInt(6)));
                     timeT.setText(rs.getString(4));
                     addressT.setText(rs.getString(8));
-
                     break;
                 }
             }
@@ -87,6 +91,9 @@ public class BookEditorAllController implements Initializable {
         }
     }
 
+    /**
+     * 更改书籍的全部信息
+     */
     public void changedAction(){
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -107,23 +114,10 @@ public class BookEditorAllController implements Initializable {
                  str=s1;
             }
 
-            //System.out.println(str);
-            connection cnn=new connection();
-            Connection con=cnn.getConnection();
-
-            String sql = "update bookinformation.bookspage set name=? ,writer=?,price=?,time=?,chuban=?,store=?,image=?where name=? ";
-            PreparedStatement ps = null;
-            ps = con.prepareStatement(sql);
-            ps.setString(1, newname);
-            ps.setString(2,newwriter);
-            ps.setString(3,newprice);
-            ps.setString(4,newtime);
-            ps.setString(5,newchuban);
-            ps.setString(6,newstore);
-            ps.setString(7,str);
-            ps.setString(8,booksname);
-
-            ps.executeUpdate();
+            double price= Double.parseDouble(newprice);
+            int store= Integer.parseInt(newstore);
+            DataBasesUtil dbu=new DataBasesUtil();
+            dbu.EditorBook(new Book(newname,newwriter,price,newtime,newchuban,str,store),booksname);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -142,6 +136,9 @@ public class BookEditorAllController implements Initializable {
         }
     }
 
+    /**
+     * 下架书本
+     */
     public void deleteBook(){
         BufferedReader br = null;
         try {
@@ -177,12 +174,17 @@ public class BookEditorAllController implements Initializable {
         }
     }
 
+    /**
+     * 选择上传的封面
+     */
     public void selectFile(){
         addressT.clear();
         FileChooser fileChooser = new FileChooser();
         File file = fileChooser.showOpenDialog(new Stage());
 
-        String path = file.getPath();
-        addressT.setText(path);
+        if(file!=null) {
+            String path = file.getPath();
+            addressT.setText(path);
+        }
     }
 }

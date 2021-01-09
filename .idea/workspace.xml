@@ -1,7 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21da2493-f20c-4234-9946-d0a52bf8eb50" name="Default Changelist" comment="" />
+    <list default="true" id="21da2493-f20c-4234-9946-d0a52bf8eb50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Image/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Image/timg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/AddBookControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookClassesControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookDeleteControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookEditorAllControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookInControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookManageControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookSeldControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookShoppingControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/BookTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/DataBasesUtilTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/EditorControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/LoginControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/ManageControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/UserAllBookControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/UsersMainControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/ZhuCeControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Test/shoppingControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image/timg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/AddBookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookClassesControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookDeleteControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookEditorAllControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookInControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookManageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookSeldControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookShoppingControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/DataBasesUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/EditorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/LoginControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ManageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/UserAllBookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/UsersMainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ZhuCeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/shoppingControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/AddBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/AddBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookClassesController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookClassesController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookClassesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookClassesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookDeleteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookEditorAllController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookEditorAllController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookManageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookSeldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookSeldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/BookShoppingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/CeshiController$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/CeshiController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/CeshiController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/CeshiController$MyEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/CeshiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/EditorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/EditorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/ManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/ManageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/UserAllBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/UserAllBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/UsersMainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/UsersMainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/ZhuCeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/ZhuCeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller/shoppingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Controller/shoppingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/FXML/AddBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/FXML/AddBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/FXML/Ceshi.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/FXML/ManagePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/FXML/ManagePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/FXML/UsersMain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/FXML/UsersMain.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/AddBookStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/AddBookStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/BookClassesStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/BookClassesStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/BookDeleteStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/BookDeleteStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/BookEditorAllStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/BookEditorAllStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/BookInStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/BookInStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/BookManageStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/BookManageStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/BookSeldStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/BookSeldStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/BookShoppingStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/BookShoppingStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/CeshiStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/EditorStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/EditorStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/LoginStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/LoginStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/ManageStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/ManageStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/UserAllBookStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/UserAllBookStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/UsersMainStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/UsersMainStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/ZhuCeStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/ZhuCeStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/StageStart/shoppingStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/StageStart/shoppingStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/TXT/bookname.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/TXT/bookname.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/TXT/buy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/TXT/buy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Tool/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Tool/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Tool/BookIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Tool/BookIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Tool/Bookseld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Tool/Bookseld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Tool/DataBasesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Tool/DataBasesUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Tool/DateAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Tool/DateAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Tool/connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Tool/connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AddBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AddBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookClassesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookClassesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookDeleteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookDeleteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookEditorAllController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookEditorAllController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookSeldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookSeldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookShoppingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookShoppingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CeshiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/EditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EditorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserAllBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserAllBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UsersMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UsersMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ZhuCeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ZhuCeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/shoppingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/shoppingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/AddBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/AddBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/Ceshi.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/ManagePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/ManagePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/UsersMain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/UsersMain.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/AddBookStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/AddBookStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/BookClassesStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/BookClassesStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/BookDeleteStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/BookDeleteStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/BookEditorAllStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/BookEditorAllStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/BookInStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/BookInStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/BookManageStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/BookManageStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/BookSeldStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/BookSeldStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/BookShoppingStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/BookShoppingStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/CeshiStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/EditorStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/EditorStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/LoginStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/LoginStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/ManageStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/ManageStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/UserAllBookStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/UserAllBookStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/UsersMainStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/UsersMainStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/ZhuCeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/ZhuCeStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StageStart/shoppingStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StageStart/shoppingStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TXT/bookname.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TXT/bookname.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TXT/buy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TXT/buy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tool/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tool/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tool/BookIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tool/BookIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tool/Bookseld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tool/Bookseld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tool/DataBasesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tool/DataBasesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tool/DateAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tool/DateAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tool/connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tool/connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +186,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/BookSalesSystem" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mQQcW8L2E1x151AXhow8hsmJ6S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,30 +203,48 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Image" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\86134\IdeaProjects\BookSalesManagementSystem\src\TXT" />
-      <recent name="C:\Users\86134\IdeaProjects\BookSalesManagementSystem\src\Image" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Test" />
+      <recent name="Tool" />
+      <recent name="Controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\86134\IdeaProjects\BookSalesManagementSystem\src\Image" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86134\IdeaProjects\BookSalesManagementSystem\src\TXT" />
+      <recent name="C:\Users\86134\IdeaProjects\BookSalesManagementSystem\src\Image" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="CeshiStage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StageStart.CeshiStage" />
+  <component name="RunManager" selected="Application.AddBookStage">
+    <configuration name="AddBookStage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StageStart.AddBookStage" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -92,42 +256,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tool.DateAdd" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Controller.Main" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="untitled" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Controller.Main" />
       <module name="untitled" />
@@ -163,17 +291,68 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddBookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.AddBookControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddBookControllerTest.quxiaoAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.AddBookControllerTest" />
+      <option name="METHOD_NAME" value="quxiaoAction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.BookTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.CeshiStage" />
-        <item itemvalue="Application.DateAdd" />
+        <item itemvalue="Application.AddBookStage" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AddBookControllerTest" />
+        <item itemvalue="JUnit.AddBookControllerTest.quxiaoAction" />
+        <item itemvalue="JUnit.BookTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -199,6 +378,15 @@
       <workItem from="1609914825680" duration="8026000" />
       <workItem from="1609938157850" duration="4964000" />
       <workItem from="1609978096944" duration="7003000" />
+      <workItem from="1609998167149" duration="803000" />
+      <workItem from="1610002565530" duration="1061000" />
+      <workItem from="1610003726084" duration="3959000" />
+      <workItem from="1610064835089" duration="12204000" />
+      <workItem from="1610084405834" duration="1329000" />
+      <workItem from="1610086819061" duration="601000" />
+      <workItem from="1610087439496" duration="6226000" />
+      <workItem from="1610154361746" duration="8069000" />
+      <workItem from="1610174635600" duration="9706000" />
     </task>
     <servers />
   </component>
@@ -214,10 +402,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="502" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609892446639" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1609897167559">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1610066417944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609897167559" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1610066417944" />
+    <state x="499" y="180" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1610088022702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="180" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1610088022702" />
     <state x="553" y="302" width="429" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609941512739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,26 +418,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609941151502" />
-    <state x="565" y="170" key="FileChooserDialogImpl" timestamp="1609686160390">
+    <state x="516" y="161" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1610162639731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609686160390" />
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1609986822914">
+    <state x="516" y="161" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1610162639731" />
+    <state x="665" y="150" key="FileChooserDialogImpl" timestamp="1610186958598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609986822914" />
-    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1609986822914">
+    <state x="665" y="150" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610186958598" />
+    <state width="1493" height="160" key="GridCell.Tab.0.bottom" timestamp="1610186975064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609986822914" />
-    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1609986822914">
+    <state width="1493" height="160" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610186975064" />
+    <state width="1493" height="160" key="GridCell.Tab.0.center" timestamp="1610186975064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609986822914" />
-    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1609986822914">
+    <state width="1493" height="160" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610186975064" />
+    <state width="1493" height="160" key="GridCell.Tab.0.left" timestamp="1610186975064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609986822914" />
+    <state width="1493" height="160" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610186975064" />
+    <state width="1493" height="160" key="GridCell.Tab.0.right" timestamp="1610186975064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="160" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610186975064" />
     <state width="1493" height="109" key="GridCell.Tab.1.bottom" timestamp="1609818881006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -262,10 +458,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="109" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609818881006" />
-    <state x="272" y="57" key="SettingsEditor" timestamp="1609686165066">
+    <state x="272" y="39" key="SettingsEditor" timestamp="1610186843768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609686165066" />
+    <state x="272" y="39" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610186843768" />
     <state x="656" y="305" width="333" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1609646102776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,18 +474,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="553" y="242" width="429" height="335" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1609518937925" />
-    <state x="676" y="89" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1609899890720">
+    <state x="438" y="64" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610179096354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="676" y="89" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1609899890720" />
+    <state x="438" y="64" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1610179096354" />
     <state x="642" y="165" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1609642859702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="642" y="165" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1609642859702" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1609978096702">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1610186995770">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1609978096702" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610186995770" />
+    <state x="508" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610087765223">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1610087765223" />
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610161758215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1610161758215" />
     <state x="449" y="269" width="671" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1609686163952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
